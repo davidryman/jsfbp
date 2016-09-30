@@ -1,0 +1,1 @@
+forfiles /P . /M fbptest*.js /c "cmd /c node @path & echo. & echo. & echo. & echo Test @fname run! && pause && cls"
