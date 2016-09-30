@@ -1,0 +1,33 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "drtest01",
+        "environment": {
+            "type": "noflo-browser"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "core/Output_c2izx": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "Output",
+                "x": 756,
+                "y": 216,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": [
+        {
+            "data": "\"test\"",
+            "tgt": {
+                "process": "core/Output_c2izx",
+                "port": "in"
+            }
+        }
+    ]
+}
