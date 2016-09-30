@@ -10,10 +10,10 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "core/Output_c2izx": {
+        "console": {
             "component": "core/Output",
             "metadata": {
-                "label": "Output",
+                "label": "console",
                 "x": 756,
                 "y": 216,
                 "width": 72,
@@ -25,7 +25,7 @@
         {
             "data": "\"test\"",
             "tgt": {
-                "process": "core/Output_c2izx",
+                "process": "console",
                 "port": "in"
             }
         }
